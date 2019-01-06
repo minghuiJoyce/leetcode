@@ -75,3 +75,14 @@ public:
     }
 };
 */
+
+
+/*
+First solution (my version of iteration)
+time: O(n+m) (the sum of the length of the two lists)
+space: O(1) (This approach only allocates pointers, which is constant memory complexity)
+
+Second solution (recursion)
+time: O(n+m) (the sum of the length of the two lists)
+space: O(n+m) (Recursion allocates n+m stack frames, which is the number of elements in the two list)
+*/
